@@ -31,5 +31,10 @@ If someone needed to contribute to the project, please add a new pull request.
 ## Related projects
 Nothing Yet.
 
+## Technical Challenges
+Trying to do a website using Node.Js, Express.Js, and MongoDB was a bit challenging considering that i hadn't studied them before but thankfully it went well and learned about new packages that facilitates the workflow too.
+
+The other thing was making sure the data from database retrieved perfectly; because i got the data saved at the database but wasn't showing up when i try to access it through the frontend.
+
 ## Licensing
 MIT license
