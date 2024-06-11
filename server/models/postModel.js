@@ -15,15 +15,10 @@ const PostSchema = new Schema({
     type: String,
     required: true
   },
-  createdAt: {
-    type: Date,
-    default: Date.now
   },
-  updatedAt: {
-    type: Date,
-    default: Date.now
-  }
-});
+    // Adding automatic CreatedAt + UpdatedAt to the Schema
+    { timestamps: true }
+);
 
 // Exporting the model to be able to access it from anywhere in the server
-module.exports = mongoose.model('Post', PostSchema);
+module.exports = mongoose.model('postModel', PostSchema);
