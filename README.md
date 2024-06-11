@@ -23,7 +23,7 @@ Create the file ".env" with your database details (cloud or locally)
 `npm run dev`
 
 ### To View it locally
-`Go to >> localhost:5000`
+`Go to >> localhost:3000`
 
 ## Contributing
 If someone needed to contribute to the project, please add a new pull request.
