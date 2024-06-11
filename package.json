@@ -7,7 +7,7 @@
     "start": "app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Yara Nazih",
+  "author": "",
   "license": "ISC",
   "description": "ALX Portfolio Project Before Specialization",
   "dependencies": {
